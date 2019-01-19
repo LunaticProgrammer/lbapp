@@ -1,0 +1,50 @@
+.container {
+
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    bottom: 0ch;
+    right: 0px;
+    left: 0em;
+   margin: 0%;
+    overflow: hidden;
+    position: absolute;
+
+    background: url('../../assets/banner1.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.formcontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20%;
+}
+
+.formbody{
+    display: flex;
+    width: 290px;
+    min-height: 200px;
+    background-color: white;
+    box-shadow:0 5px 10px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 25px;
+}
+
+div > span {
+    font-size: 0.75rem;
+    color: firebrick;
+}
+
+
+
+
+  .header{
+      font-size: 2rem;
+      text-align: center;
+      margin-bottom: 40px;      
+  }
